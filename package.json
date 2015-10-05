@@ -1,0 +1,35 @@
+{
+  "name": "canister",
+  "version": "1.0.0",
+  "description": "Canister Ethereum Wallet",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "react": "^0.13.3",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0",
+    "browserify": "^11.2.0"
+  },
+  "devDependencies": {
+    "gulp-webserver": "^0.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janne/canister.git"
+  },
+  "keywords": [
+    "ethereum",
+    "wallet",
+    "react",
+    "reactjs"
+  ],
+  "author": "Jan Andersson <jan.andersson@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/janne/canister/issues"
+  },
+  "homepage": "https://github.com/janne/canister#readme"
+}
