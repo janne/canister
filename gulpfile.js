@@ -9,6 +9,10 @@ gulp.task('browserify', function(){
   b.transform(reactify);
   b.add('./src/main.jsx');
   return b.bundle()
+    .on('error', function(err){
+      console.log(err.message);
+      this.emit('end');
+    })
     .pipe(source('main.js'))
     .pipe(gulp.dest('./dist'));
 });
